@@ -16,7 +16,7 @@ document.getElementById('btn-login').addEventListener('click',function(event){
     if(phoneNumber === '5' && pinNumber === '1234'){
         //step-5: Allow user to use the website
         console.log('You are login');
-        window.location.href= '/home.html'
+        window.location.href= '../home.html'
         
     }
     else{
