@@ -15,7 +15,6 @@ document.getElementById('btn-login').addEventListener('click',function(event){
     //this is temporary. You should not do like this
     if(phoneNumber === '5' && pinNumber === '1234'){
         //step-5: Allow user to use the website
-        console.log('You are login');
         window.location.href='home.html'   
     }
     else{
