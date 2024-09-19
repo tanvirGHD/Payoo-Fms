@@ -32,8 +32,6 @@ document.getElementById('btn-add-money').addEventListener('click',function(event
        //step-6: update the balance in the UI/DOM
        document.getElementById('account-balance').innerText = newBalance;
          
-        
-
     }
     else{
         alert('Failed to add money! Please try again');
